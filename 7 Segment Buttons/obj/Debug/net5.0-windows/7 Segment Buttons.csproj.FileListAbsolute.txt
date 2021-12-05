@@ -1,0 +1,18 @@
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\7 Segment Buttons.exe
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\7 Segment Buttons.deps.json
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\7 Segment Buttons.runtimeconfig.json
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\7 Segment Buttons.runtimeconfig.dev.json
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\7 Segment Buttons.dll
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\ref\7 Segment Buttons.dll
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\bin\Debug\net5.0-windows\7 Segment Buttons.pdb
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\_7_Segment_Buttons.Form1.resources
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.AssemblyInfo.cs
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.dll
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\ref\7 Segment Buttons.dll
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.pdb
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\7 Segment Buttons\7 Segment Buttons\7 Segment Buttons\obj\Debug\net5.0-windows\7 Segment Buttons.genruntimeconfig.cache
