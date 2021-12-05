@@ -14,6 +14,12 @@ namespace _7_Segment_Buttons
     {
         public DateTime time;
         public string hour, min, sec, hourfd, hoursd, minfd, minsd, secfd, secsd;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Update_Clock();
+        }
+
         public Button[] button1, button2, button3, button4, button5, button6;
 
         private void Form1_Load(object sender, EventArgs e)
@@ -24,11 +30,6 @@ namespace _7_Segment_Buttons
             button4 = new Button[7] { tS4, tRS4, tLS4, mS4, bRS4, bLS4, bS4 };
             button5 = new Button[7] { tS5, tRS5, tLS5, mS5, bRS5, bLS5, bS5 };
             button6 = new Button[7] { tS6, tRS6, tLS6, mS6, bRS6, bLS6, bS6 };
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            Update_Clock();
         }
 
         public Form1()
