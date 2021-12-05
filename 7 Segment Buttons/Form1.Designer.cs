@@ -75,6 +75,7 @@ namespace _7_Segment_Buttons
             this.tLS5 = new System.Windows.Forms.Button();
             this.tRS5 = new System.Windows.Forms.Button();
             this.tS5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tS1
@@ -495,11 +496,22 @@ namespace _7_Segment_Buttons
             this.tS5.TabStop = false;
             this.tS5.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(273, 251);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 275);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bLS6);
             this.Controls.Add(this.bS6);
             this.Controls.Add(this.bRS6);
@@ -551,6 +563,7 @@ namespace _7_Segment_Buttons
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -602,6 +615,7 @@ namespace _7_Segment_Buttons
         private System.Windows.Forms.Button tLS5;
         private System.Windows.Forms.Button tRS5;
         private System.Windows.Forms.Button tS5;
+        private System.Windows.Forms.Label label1;
     }
 }
 
