@@ -89,7 +89,7 @@ namespace _7_Segment_Buttons
             // 
             // tRS1
             // 
-            this.tRS1.Location = new System.Drawing.Point(105, 41);
+            this.tRS1.Location = new System.Drawing.Point(105, 32);
             this.tRS1.Name = "tRS1";
             this.tRS1.Size = new System.Drawing.Size(23, 75);
             this.tRS1.TabIndex = 1;
@@ -98,7 +98,7 @@ namespace _7_Segment_Buttons
             // 
             // tLS1
             // 
-            this.tLS1.Location = new System.Drawing.Point(12, 41);
+            this.tLS1.Location = new System.Drawing.Point(12, 32);
             this.tLS1.Name = "tLS1";
             this.tLS1.Size = new System.Drawing.Size(23, 75);
             this.tLS1.TabIndex = 2;
@@ -107,7 +107,7 @@ namespace _7_Segment_Buttons
             // 
             // mS1
             // 
-            this.mS1.Location = new System.Drawing.Point(32, 122);
+            this.mS1.Location = new System.Drawing.Point(32, 104);
             this.mS1.Name = "mS1";
             this.mS1.Size = new System.Drawing.Size(75, 23);
             this.mS1.TabIndex = 3;
@@ -116,7 +116,7 @@ namespace _7_Segment_Buttons
             // 
             // bRS1
             // 
-            this.bRS1.Location = new System.Drawing.Point(105, 150);
+            this.bRS1.Location = new System.Drawing.Point(105, 126);
             this.bRS1.Name = "bRS1";
             this.bRS1.Size = new System.Drawing.Size(23, 75);
             this.bRS1.TabIndex = 4;
@@ -125,7 +125,7 @@ namespace _7_Segment_Buttons
             // 
             // bS1
             // 
-            this.bS1.Location = new System.Drawing.Point(32, 231);
+            this.bS1.Location = new System.Drawing.Point(32, 199);
             this.bS1.Name = "bS1";
             this.bS1.Size = new System.Drawing.Size(75, 23);
             this.bS1.TabIndex = 5;
@@ -134,7 +134,7 @@ namespace _7_Segment_Buttons
             // 
             // bLS1
             // 
-            this.bLS1.Location = new System.Drawing.Point(12, 150);
+            this.bLS1.Location = new System.Drawing.Point(12, 126);
             this.bLS1.Name = "bLS1";
             this.bLS1.Size = new System.Drawing.Size(23, 75);
             this.bLS1.TabIndex = 6;
@@ -143,7 +143,7 @@ namespace _7_Segment_Buttons
             // 
             // bLS2
             // 
-            this.bLS2.Location = new System.Drawing.Point(145, 150);
+            this.bLS2.Location = new System.Drawing.Point(145, 126);
             this.bLS2.Name = "bLS2";
             this.bLS2.Size = new System.Drawing.Size(23, 75);
             this.bLS2.TabIndex = 13;
@@ -152,7 +152,7 @@ namespace _7_Segment_Buttons
             // 
             // bS2
             // 
-            this.bS2.Location = new System.Drawing.Point(165, 231);
+            this.bS2.Location = new System.Drawing.Point(165, 199);
             this.bS2.Name = "bS2";
             this.bS2.Size = new System.Drawing.Size(75, 23);
             this.bS2.TabIndex = 12;
@@ -161,7 +161,7 @@ namespace _7_Segment_Buttons
             // 
             // bRS2
             // 
-            this.bRS2.Location = new System.Drawing.Point(238, 150);
+            this.bRS2.Location = new System.Drawing.Point(238, 126);
             this.bRS2.Name = "bRS2";
             this.bRS2.Size = new System.Drawing.Size(23, 75);
             this.bRS2.TabIndex = 11;
@@ -170,7 +170,7 @@ namespace _7_Segment_Buttons
             // 
             // mS2
             // 
-            this.mS2.Location = new System.Drawing.Point(165, 122);
+            this.mS2.Location = new System.Drawing.Point(165, 104);
             this.mS2.Name = "mS2";
             this.mS2.Size = new System.Drawing.Size(75, 23);
             this.mS2.TabIndex = 10;
@@ -179,7 +179,7 @@ namespace _7_Segment_Buttons
             // 
             // tLS2
             // 
-            this.tLS2.Location = new System.Drawing.Point(145, 41);
+            this.tLS2.Location = new System.Drawing.Point(145, 32);
             this.tLS2.Name = "tLS2";
             this.tLS2.Size = new System.Drawing.Size(23, 75);
             this.tLS2.TabIndex = 9;
@@ -188,7 +188,7 @@ namespace _7_Segment_Buttons
             // 
             // tRS2
             // 
-            this.tRS2.Location = new System.Drawing.Point(238, 41);
+            this.tRS2.Location = new System.Drawing.Point(238, 32);
             this.tRS2.Name = "tRS2";
             this.tRS2.Size = new System.Drawing.Size(23, 75);
             this.tRS2.TabIndex = 8;
@@ -207,7 +207,7 @@ namespace _7_Segment_Buttons
             // jD1
             // 
             this.jD1.BackColor = System.Drawing.Color.Red;
-            this.jD1.Location = new System.Drawing.Point(284, 65);
+            this.jD1.Location = new System.Drawing.Point(284, 55);
             this.jD1.Name = "jD1";
             this.jD1.Size = new System.Drawing.Size(27, 27);
             this.jD1.TabIndex = 14;
@@ -217,7 +217,7 @@ namespace _7_Segment_Buttons
             // jD2
             // 
             this.jD2.BackColor = System.Drawing.Color.Red;
-            this.jD2.Location = new System.Drawing.Point(284, 174);
+            this.jD2.Location = new System.Drawing.Point(284, 155);
             this.jD2.Name = "jD2";
             this.jD2.Size = new System.Drawing.Size(27, 27);
             this.jD2.TabIndex = 15;
@@ -227,7 +227,7 @@ namespace _7_Segment_Buttons
             // jD4
             // 
             this.jD4.BackColor = System.Drawing.Color.Red;
-            this.jD4.Location = new System.Drawing.Point(604, 174);
+            this.jD4.Location = new System.Drawing.Point(604, 155);
             this.jD4.Name = "jD4";
             this.jD4.Size = new System.Drawing.Size(27, 27);
             this.jD4.TabIndex = 31;
@@ -237,7 +237,7 @@ namespace _7_Segment_Buttons
             // jD3
             // 
             this.jD3.BackColor = System.Drawing.Color.Red;
-            this.jD3.Location = new System.Drawing.Point(604, 65);
+            this.jD3.Location = new System.Drawing.Point(604, 55);
             this.jD3.Name = "jD3";
             this.jD3.Size = new System.Drawing.Size(27, 27);
             this.jD3.TabIndex = 30;
@@ -246,7 +246,7 @@ namespace _7_Segment_Buttons
             // 
             // bLS4
             // 
-            this.bLS4.Location = new System.Drawing.Point(465, 150);
+            this.bLS4.Location = new System.Drawing.Point(465, 126);
             this.bLS4.Name = "bLS4";
             this.bLS4.Size = new System.Drawing.Size(23, 75);
             this.bLS4.TabIndex = 29;
@@ -255,7 +255,7 @@ namespace _7_Segment_Buttons
             // 
             // bS4
             // 
-            this.bS4.Location = new System.Drawing.Point(485, 231);
+            this.bS4.Location = new System.Drawing.Point(485, 199);
             this.bS4.Name = "bS4";
             this.bS4.Size = new System.Drawing.Size(75, 23);
             this.bS4.TabIndex = 28;
@@ -264,7 +264,7 @@ namespace _7_Segment_Buttons
             // 
             // bRS4
             // 
-            this.bRS4.Location = new System.Drawing.Point(558, 150);
+            this.bRS4.Location = new System.Drawing.Point(558, 126);
             this.bRS4.Name = "bRS4";
             this.bRS4.Size = new System.Drawing.Size(23, 75);
             this.bRS4.TabIndex = 27;
@@ -273,7 +273,7 @@ namespace _7_Segment_Buttons
             // 
             // mS4
             // 
-            this.mS4.Location = new System.Drawing.Point(485, 122);
+            this.mS4.Location = new System.Drawing.Point(485, 104);
             this.mS4.Name = "mS4";
             this.mS4.Size = new System.Drawing.Size(75, 23);
             this.mS4.TabIndex = 26;
@@ -282,7 +282,7 @@ namespace _7_Segment_Buttons
             // 
             // tLS4
             // 
-            this.tLS4.Location = new System.Drawing.Point(465, 41);
+            this.tLS4.Location = new System.Drawing.Point(465, 32);
             this.tLS4.Name = "tLS4";
             this.tLS4.Size = new System.Drawing.Size(23, 75);
             this.tLS4.TabIndex = 25;
@@ -291,7 +291,7 @@ namespace _7_Segment_Buttons
             // 
             // tRS4
             // 
-            this.tRS4.Location = new System.Drawing.Point(558, 41);
+            this.tRS4.Location = new System.Drawing.Point(558, 32);
             this.tRS4.Name = "tRS4";
             this.tRS4.Size = new System.Drawing.Size(23, 75);
             this.tRS4.TabIndex = 24;
@@ -309,7 +309,7 @@ namespace _7_Segment_Buttons
             // 
             // bLS3
             // 
-            this.bLS3.Location = new System.Drawing.Point(332, 150);
+            this.bLS3.Location = new System.Drawing.Point(332, 126);
             this.bLS3.Name = "bLS3";
             this.bLS3.Size = new System.Drawing.Size(23, 75);
             this.bLS3.TabIndex = 22;
@@ -318,7 +318,7 @@ namespace _7_Segment_Buttons
             // 
             // bS3
             // 
-            this.bS3.Location = new System.Drawing.Point(352, 231);
+            this.bS3.Location = new System.Drawing.Point(352, 199);
             this.bS3.Name = "bS3";
             this.bS3.Size = new System.Drawing.Size(75, 23);
             this.bS3.TabIndex = 21;
@@ -327,7 +327,7 @@ namespace _7_Segment_Buttons
             // 
             // bRS3
             // 
-            this.bRS3.Location = new System.Drawing.Point(425, 150);
+            this.bRS3.Location = new System.Drawing.Point(425, 126);
             this.bRS3.Name = "bRS3";
             this.bRS3.Size = new System.Drawing.Size(23, 75);
             this.bRS3.TabIndex = 20;
@@ -336,7 +336,7 @@ namespace _7_Segment_Buttons
             // 
             // mS3
             // 
-            this.mS3.Location = new System.Drawing.Point(352, 122);
+            this.mS3.Location = new System.Drawing.Point(352, 104);
             this.mS3.Name = "mS3";
             this.mS3.Size = new System.Drawing.Size(75, 23);
             this.mS3.TabIndex = 19;
@@ -345,7 +345,7 @@ namespace _7_Segment_Buttons
             // 
             // tLS3
             // 
-            this.tLS3.Location = new System.Drawing.Point(332, 41);
+            this.tLS3.Location = new System.Drawing.Point(332, 32);
             this.tLS3.Name = "tLS3";
             this.tLS3.Size = new System.Drawing.Size(23, 75);
             this.tLS3.TabIndex = 18;
@@ -354,7 +354,7 @@ namespace _7_Segment_Buttons
             // 
             // tRS3
             // 
-            this.tRS3.Location = new System.Drawing.Point(425, 41);
+            this.tRS3.Location = new System.Drawing.Point(425, 32);
             this.tRS3.Name = "tRS3";
             this.tRS3.Size = new System.Drawing.Size(23, 75);
             this.tRS3.TabIndex = 17;
@@ -372,7 +372,7 @@ namespace _7_Segment_Buttons
             // 
             // bLS6
             // 
-            this.bLS6.Location = new System.Drawing.Point(788, 150);
+            this.bLS6.Location = new System.Drawing.Point(788, 126);
             this.bLS6.Name = "bLS6";
             this.bLS6.Size = new System.Drawing.Size(23, 75);
             this.bLS6.TabIndex = 45;
@@ -381,7 +381,7 @@ namespace _7_Segment_Buttons
             // 
             // bS6
             // 
-            this.bS6.Location = new System.Drawing.Point(808, 231);
+            this.bS6.Location = new System.Drawing.Point(808, 199);
             this.bS6.Name = "bS6";
             this.bS6.Size = new System.Drawing.Size(75, 23);
             this.bS6.TabIndex = 44;
@@ -390,7 +390,7 @@ namespace _7_Segment_Buttons
             // 
             // bRS6
             // 
-            this.bRS6.Location = new System.Drawing.Point(881, 150);
+            this.bRS6.Location = new System.Drawing.Point(881, 126);
             this.bRS6.Name = "bRS6";
             this.bRS6.Size = new System.Drawing.Size(23, 75);
             this.bRS6.TabIndex = 43;
@@ -399,7 +399,7 @@ namespace _7_Segment_Buttons
             // 
             // mS6
             // 
-            this.mS6.Location = new System.Drawing.Point(808, 122);
+            this.mS6.Location = new System.Drawing.Point(808, 104);
             this.mS6.Name = "mS6";
             this.mS6.Size = new System.Drawing.Size(75, 23);
             this.mS6.TabIndex = 42;
@@ -408,7 +408,7 @@ namespace _7_Segment_Buttons
             // 
             // tLS6
             // 
-            this.tLS6.Location = new System.Drawing.Point(788, 41);
+            this.tLS6.Location = new System.Drawing.Point(788, 32);
             this.tLS6.Name = "tLS6";
             this.tLS6.Size = new System.Drawing.Size(23, 75);
             this.tLS6.TabIndex = 41;
@@ -417,7 +417,7 @@ namespace _7_Segment_Buttons
             // 
             // tRS6
             // 
-            this.tRS6.Location = new System.Drawing.Point(881, 41);
+            this.tRS6.Location = new System.Drawing.Point(881, 32);
             this.tRS6.Name = "tRS6";
             this.tRS6.Size = new System.Drawing.Size(23, 75);
             this.tRS6.TabIndex = 40;
@@ -435,7 +435,7 @@ namespace _7_Segment_Buttons
             // 
             // bLS5
             // 
-            this.bLS5.Location = new System.Drawing.Point(655, 150);
+            this.bLS5.Location = new System.Drawing.Point(655, 126);
             this.bLS5.Name = "bLS5";
             this.bLS5.Size = new System.Drawing.Size(23, 75);
             this.bLS5.TabIndex = 38;
@@ -444,7 +444,7 @@ namespace _7_Segment_Buttons
             // 
             // bS5
             // 
-            this.bS5.Location = new System.Drawing.Point(675, 231);
+            this.bS5.Location = new System.Drawing.Point(675, 199);
             this.bS5.Name = "bS5";
             this.bS5.Size = new System.Drawing.Size(75, 23);
             this.bS5.TabIndex = 37;
@@ -453,7 +453,7 @@ namespace _7_Segment_Buttons
             // 
             // bRS5
             // 
-            this.bRS5.Location = new System.Drawing.Point(748, 150);
+            this.bRS5.Location = new System.Drawing.Point(748, 126);
             this.bRS5.Name = "bRS5";
             this.bRS5.Size = new System.Drawing.Size(23, 75);
             this.bRS5.TabIndex = 36;
@@ -462,7 +462,7 @@ namespace _7_Segment_Buttons
             // 
             // mS5
             // 
-            this.mS5.Location = new System.Drawing.Point(675, 122);
+            this.mS5.Location = new System.Drawing.Point(675, 104);
             this.mS5.Name = "mS5";
             this.mS5.Size = new System.Drawing.Size(75, 23);
             this.mS5.TabIndex = 35;
@@ -471,7 +471,7 @@ namespace _7_Segment_Buttons
             // 
             // tLS5
             // 
-            this.tLS5.Location = new System.Drawing.Point(655, 41);
+            this.tLS5.Location = new System.Drawing.Point(655, 32);
             this.tLS5.Name = "tLS5";
             this.tLS5.Size = new System.Drawing.Size(23, 75);
             this.tLS5.TabIndex = 34;
@@ -480,7 +480,7 @@ namespace _7_Segment_Buttons
             // 
             // tRS5
             // 
-            this.tRS5.Location = new System.Drawing.Point(748, 41);
+            this.tRS5.Location = new System.Drawing.Point(748, 32);
             this.tRS5.Name = "tRS5";
             this.tRS5.Size = new System.Drawing.Size(23, 75);
             this.tRS5.TabIndex = 33;
@@ -510,6 +510,7 @@ namespace _7_Segment_Buttons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(913, 275);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bLS6);
@@ -562,6 +563,7 @@ namespace _7_Segment_Buttons
             this.MinimumSize = new System.Drawing.Size(929, 314);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
