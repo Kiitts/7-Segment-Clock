@@ -15,6 +15,18 @@ namespace _7_Segment_Buttons
         public DateTime time;
         public string hour, min, sec, hourfd, hoursd, minfd, minsd, secfd, secsd;
 
+        private void themeBtn_Click(object sender, EventArgs e)
+        {
+            if (themeBox.Visible)
+            {
+                themeBox.Visible = false;
+            }
+            else
+            {
+                themeBox.Visible = true;
+            }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             Update_Clock();

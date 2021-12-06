@@ -77,11 +77,14 @@ namespace _7_Segment_Buttons
             this.tRS5 = new System.Windows.Forms.Button();
             this.tS5 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.themeBtn = new System.Windows.Forms.Button();
+            this.themeBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // tS1
             // 
-            this.tS1.Location = new System.Drawing.Point(32, 12);
+            this.tS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tS1.Location = new System.Drawing.Point(32, 52);
             this.tS1.Name = "tS1";
             this.tS1.Size = new System.Drawing.Size(75, 23);
             this.tS1.TabIndex = 0;
@@ -90,7 +93,8 @@ namespace _7_Segment_Buttons
             // 
             // tRS1
             // 
-            this.tRS1.Location = new System.Drawing.Point(105, 32);
+            this.tRS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tRS1.Location = new System.Drawing.Point(105, 72);
             this.tRS1.Name = "tRS1";
             this.tRS1.Size = new System.Drawing.Size(23, 75);
             this.tRS1.TabIndex = 1;
@@ -99,7 +103,8 @@ namespace _7_Segment_Buttons
             // 
             // tLS1
             // 
-            this.tLS1.Location = new System.Drawing.Point(12, 32);
+            this.tLS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tLS1.Location = new System.Drawing.Point(12, 72);
             this.tLS1.Name = "tLS1";
             this.tLS1.Size = new System.Drawing.Size(23, 75);
             this.tLS1.TabIndex = 2;
@@ -108,7 +113,8 @@ namespace _7_Segment_Buttons
             // 
             // mS1
             // 
-            this.mS1.Location = new System.Drawing.Point(32, 104);
+            this.mS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mS1.Location = new System.Drawing.Point(32, 144);
             this.mS1.Name = "mS1";
             this.mS1.Size = new System.Drawing.Size(75, 23);
             this.mS1.TabIndex = 3;
@@ -117,7 +123,8 @@ namespace _7_Segment_Buttons
             // 
             // bRS1
             // 
-            this.bRS1.Location = new System.Drawing.Point(105, 126);
+            this.bRS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRS1.Location = new System.Drawing.Point(105, 166);
             this.bRS1.Name = "bRS1";
             this.bRS1.Size = new System.Drawing.Size(23, 75);
             this.bRS1.TabIndex = 4;
@@ -126,7 +133,8 @@ namespace _7_Segment_Buttons
             // 
             // bS1
             // 
-            this.bS1.Location = new System.Drawing.Point(32, 199);
+            this.bS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bS1.Location = new System.Drawing.Point(32, 239);
             this.bS1.Name = "bS1";
             this.bS1.Size = new System.Drawing.Size(75, 23);
             this.bS1.TabIndex = 5;
@@ -135,7 +143,8 @@ namespace _7_Segment_Buttons
             // 
             // bLS1
             // 
-            this.bLS1.Location = new System.Drawing.Point(12, 126);
+            this.bLS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLS1.Location = new System.Drawing.Point(12, 166);
             this.bLS1.Name = "bLS1";
             this.bLS1.Size = new System.Drawing.Size(23, 75);
             this.bLS1.TabIndex = 6;
@@ -144,7 +153,8 @@ namespace _7_Segment_Buttons
             // 
             // bLS2
             // 
-            this.bLS2.Location = new System.Drawing.Point(145, 126);
+            this.bLS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLS2.Location = new System.Drawing.Point(145, 166);
             this.bLS2.Name = "bLS2";
             this.bLS2.Size = new System.Drawing.Size(23, 75);
             this.bLS2.TabIndex = 13;
@@ -153,7 +163,8 @@ namespace _7_Segment_Buttons
             // 
             // bS2
             // 
-            this.bS2.Location = new System.Drawing.Point(165, 199);
+            this.bS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bS2.Location = new System.Drawing.Point(165, 239);
             this.bS2.Name = "bS2";
             this.bS2.Size = new System.Drawing.Size(75, 23);
             this.bS2.TabIndex = 12;
@@ -162,7 +173,8 @@ namespace _7_Segment_Buttons
             // 
             // bRS2
             // 
-            this.bRS2.Location = new System.Drawing.Point(238, 126);
+            this.bRS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRS2.Location = new System.Drawing.Point(238, 166);
             this.bRS2.Name = "bRS2";
             this.bRS2.Size = new System.Drawing.Size(23, 75);
             this.bRS2.TabIndex = 11;
@@ -171,7 +183,8 @@ namespace _7_Segment_Buttons
             // 
             // mS2
             // 
-            this.mS2.Location = new System.Drawing.Point(165, 104);
+            this.mS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mS2.Location = new System.Drawing.Point(165, 144);
             this.mS2.Name = "mS2";
             this.mS2.Size = new System.Drawing.Size(75, 23);
             this.mS2.TabIndex = 10;
@@ -180,7 +193,8 @@ namespace _7_Segment_Buttons
             // 
             // tLS2
             // 
-            this.tLS2.Location = new System.Drawing.Point(145, 32);
+            this.tLS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tLS2.Location = new System.Drawing.Point(145, 72);
             this.tLS2.Name = "tLS2";
             this.tLS2.Size = new System.Drawing.Size(23, 75);
             this.tLS2.TabIndex = 9;
@@ -189,7 +203,8 @@ namespace _7_Segment_Buttons
             // 
             // tRS2
             // 
-            this.tRS2.Location = new System.Drawing.Point(238, 32);
+            this.tRS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tRS2.Location = new System.Drawing.Point(238, 72);
             this.tRS2.Name = "tRS2";
             this.tRS2.Size = new System.Drawing.Size(23, 75);
             this.tRS2.TabIndex = 8;
@@ -198,7 +213,8 @@ namespace _7_Segment_Buttons
             // 
             // tS2
             // 
-            this.tS2.Location = new System.Drawing.Point(165, 12);
+            this.tS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tS2.Location = new System.Drawing.Point(165, 52);
             this.tS2.Name = "tS2";
             this.tS2.Size = new System.Drawing.Size(75, 23);
             this.tS2.TabIndex = 7;
@@ -208,7 +224,8 @@ namespace _7_Segment_Buttons
             // jD1
             // 
             this.jD1.BackColor = System.Drawing.Color.Red;
-            this.jD1.Location = new System.Drawing.Point(284, 55);
+            this.jD1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jD1.Location = new System.Drawing.Point(284, 95);
             this.jD1.Name = "jD1";
             this.jD1.Size = new System.Drawing.Size(27, 27);
             this.jD1.TabIndex = 14;
@@ -218,7 +235,8 @@ namespace _7_Segment_Buttons
             // jD2
             // 
             this.jD2.BackColor = System.Drawing.Color.Red;
-            this.jD2.Location = new System.Drawing.Point(284, 155);
+            this.jD2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jD2.Location = new System.Drawing.Point(284, 195);
             this.jD2.Name = "jD2";
             this.jD2.Size = new System.Drawing.Size(27, 27);
             this.jD2.TabIndex = 15;
@@ -228,7 +246,8 @@ namespace _7_Segment_Buttons
             // jD4
             // 
             this.jD4.BackColor = System.Drawing.Color.Red;
-            this.jD4.Location = new System.Drawing.Point(604, 155);
+            this.jD4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jD4.Location = new System.Drawing.Point(604, 195);
             this.jD4.Name = "jD4";
             this.jD4.Size = new System.Drawing.Size(27, 27);
             this.jD4.TabIndex = 31;
@@ -238,7 +257,8 @@ namespace _7_Segment_Buttons
             // jD3
             // 
             this.jD3.BackColor = System.Drawing.Color.Red;
-            this.jD3.Location = new System.Drawing.Point(604, 55);
+            this.jD3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jD3.Location = new System.Drawing.Point(604, 95);
             this.jD3.Name = "jD3";
             this.jD3.Size = new System.Drawing.Size(27, 27);
             this.jD3.TabIndex = 30;
@@ -247,7 +267,8 @@ namespace _7_Segment_Buttons
             // 
             // bLS4
             // 
-            this.bLS4.Location = new System.Drawing.Point(465, 126);
+            this.bLS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLS4.Location = new System.Drawing.Point(465, 166);
             this.bLS4.Name = "bLS4";
             this.bLS4.Size = new System.Drawing.Size(23, 75);
             this.bLS4.TabIndex = 29;
@@ -256,7 +277,8 @@ namespace _7_Segment_Buttons
             // 
             // bS4
             // 
-            this.bS4.Location = new System.Drawing.Point(485, 199);
+            this.bS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bS4.Location = new System.Drawing.Point(485, 239);
             this.bS4.Name = "bS4";
             this.bS4.Size = new System.Drawing.Size(75, 23);
             this.bS4.TabIndex = 28;
@@ -265,7 +287,8 @@ namespace _7_Segment_Buttons
             // 
             // bRS4
             // 
-            this.bRS4.Location = new System.Drawing.Point(558, 126);
+            this.bRS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRS4.Location = new System.Drawing.Point(558, 166);
             this.bRS4.Name = "bRS4";
             this.bRS4.Size = new System.Drawing.Size(23, 75);
             this.bRS4.TabIndex = 27;
@@ -274,7 +297,8 @@ namespace _7_Segment_Buttons
             // 
             // mS4
             // 
-            this.mS4.Location = new System.Drawing.Point(485, 104);
+            this.mS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mS4.Location = new System.Drawing.Point(485, 144);
             this.mS4.Name = "mS4";
             this.mS4.Size = new System.Drawing.Size(75, 23);
             this.mS4.TabIndex = 26;
@@ -283,7 +307,8 @@ namespace _7_Segment_Buttons
             // 
             // tLS4
             // 
-            this.tLS4.Location = new System.Drawing.Point(465, 32);
+            this.tLS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tLS4.Location = new System.Drawing.Point(465, 72);
             this.tLS4.Name = "tLS4";
             this.tLS4.Size = new System.Drawing.Size(23, 75);
             this.tLS4.TabIndex = 25;
@@ -292,7 +317,8 @@ namespace _7_Segment_Buttons
             // 
             // tRS4
             // 
-            this.tRS4.Location = new System.Drawing.Point(558, 32);
+            this.tRS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tRS4.Location = new System.Drawing.Point(558, 72);
             this.tRS4.Name = "tRS4";
             this.tRS4.Size = new System.Drawing.Size(23, 75);
             this.tRS4.TabIndex = 24;
@@ -301,7 +327,8 @@ namespace _7_Segment_Buttons
             // 
             // tS4
             // 
-            this.tS4.Location = new System.Drawing.Point(485, 12);
+            this.tS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tS4.Location = new System.Drawing.Point(485, 52);
             this.tS4.Name = "tS4";
             this.tS4.Size = new System.Drawing.Size(75, 23);
             this.tS4.TabIndex = 23;
@@ -310,7 +337,8 @@ namespace _7_Segment_Buttons
             // 
             // bLS3
             // 
-            this.bLS3.Location = new System.Drawing.Point(332, 126);
+            this.bLS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLS3.Location = new System.Drawing.Point(332, 166);
             this.bLS3.Name = "bLS3";
             this.bLS3.Size = new System.Drawing.Size(23, 75);
             this.bLS3.TabIndex = 22;
@@ -319,7 +347,8 @@ namespace _7_Segment_Buttons
             // 
             // bS3
             // 
-            this.bS3.Location = new System.Drawing.Point(352, 199);
+            this.bS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bS3.Location = new System.Drawing.Point(352, 239);
             this.bS3.Name = "bS3";
             this.bS3.Size = new System.Drawing.Size(75, 23);
             this.bS3.TabIndex = 21;
@@ -328,7 +357,8 @@ namespace _7_Segment_Buttons
             // 
             // bRS3
             // 
-            this.bRS3.Location = new System.Drawing.Point(425, 126);
+            this.bRS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRS3.Location = new System.Drawing.Point(425, 166);
             this.bRS3.Name = "bRS3";
             this.bRS3.Size = new System.Drawing.Size(23, 75);
             this.bRS3.TabIndex = 20;
@@ -337,7 +367,8 @@ namespace _7_Segment_Buttons
             // 
             // mS3
             // 
-            this.mS3.Location = new System.Drawing.Point(352, 104);
+            this.mS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mS3.Location = new System.Drawing.Point(352, 144);
             this.mS3.Name = "mS3";
             this.mS3.Size = new System.Drawing.Size(75, 23);
             this.mS3.TabIndex = 19;
@@ -346,7 +377,8 @@ namespace _7_Segment_Buttons
             // 
             // tLS3
             // 
-            this.tLS3.Location = new System.Drawing.Point(332, 32);
+            this.tLS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tLS3.Location = new System.Drawing.Point(332, 72);
             this.tLS3.Name = "tLS3";
             this.tLS3.Size = new System.Drawing.Size(23, 75);
             this.tLS3.TabIndex = 18;
@@ -355,7 +387,8 @@ namespace _7_Segment_Buttons
             // 
             // tRS3
             // 
-            this.tRS3.Location = new System.Drawing.Point(425, 32);
+            this.tRS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tRS3.Location = new System.Drawing.Point(425, 72);
             this.tRS3.Name = "tRS3";
             this.tRS3.Size = new System.Drawing.Size(23, 75);
             this.tRS3.TabIndex = 17;
@@ -364,7 +397,8 @@ namespace _7_Segment_Buttons
             // 
             // tS3
             // 
-            this.tS3.Location = new System.Drawing.Point(352, 12);
+            this.tS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tS3.Location = new System.Drawing.Point(352, 52);
             this.tS3.Name = "tS3";
             this.tS3.Size = new System.Drawing.Size(75, 23);
             this.tS3.TabIndex = 16;
@@ -373,7 +407,8 @@ namespace _7_Segment_Buttons
             // 
             // bLS6
             // 
-            this.bLS6.Location = new System.Drawing.Point(788, 126);
+            this.bLS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLS6.Location = new System.Drawing.Point(788, 166);
             this.bLS6.Name = "bLS6";
             this.bLS6.Size = new System.Drawing.Size(23, 75);
             this.bLS6.TabIndex = 45;
@@ -382,7 +417,8 @@ namespace _7_Segment_Buttons
             // 
             // bS6
             // 
-            this.bS6.Location = new System.Drawing.Point(808, 199);
+            this.bS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bS6.Location = new System.Drawing.Point(808, 239);
             this.bS6.Name = "bS6";
             this.bS6.Size = new System.Drawing.Size(75, 23);
             this.bS6.TabIndex = 44;
@@ -391,7 +427,8 @@ namespace _7_Segment_Buttons
             // 
             // bRS6
             // 
-            this.bRS6.Location = new System.Drawing.Point(881, 126);
+            this.bRS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRS6.Location = new System.Drawing.Point(881, 166);
             this.bRS6.Name = "bRS6";
             this.bRS6.Size = new System.Drawing.Size(23, 75);
             this.bRS6.TabIndex = 43;
@@ -400,7 +437,8 @@ namespace _7_Segment_Buttons
             // 
             // mS6
             // 
-            this.mS6.Location = new System.Drawing.Point(808, 104);
+            this.mS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mS6.Location = new System.Drawing.Point(808, 144);
             this.mS6.Name = "mS6";
             this.mS6.Size = new System.Drawing.Size(75, 23);
             this.mS6.TabIndex = 42;
@@ -409,7 +447,8 @@ namespace _7_Segment_Buttons
             // 
             // tLS6
             // 
-            this.tLS6.Location = new System.Drawing.Point(788, 32);
+            this.tLS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tLS6.Location = new System.Drawing.Point(788, 72);
             this.tLS6.Name = "tLS6";
             this.tLS6.Size = new System.Drawing.Size(23, 75);
             this.tLS6.TabIndex = 41;
@@ -418,7 +457,8 @@ namespace _7_Segment_Buttons
             // 
             // tRS6
             // 
-            this.tRS6.Location = new System.Drawing.Point(881, 32);
+            this.tRS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tRS6.Location = new System.Drawing.Point(881, 72);
             this.tRS6.Name = "tRS6";
             this.tRS6.Size = new System.Drawing.Size(23, 75);
             this.tRS6.TabIndex = 40;
@@ -427,7 +467,8 @@ namespace _7_Segment_Buttons
             // 
             // tS6
             // 
-            this.tS6.Location = new System.Drawing.Point(808, 12);
+            this.tS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tS6.Location = new System.Drawing.Point(808, 52);
             this.tS6.Name = "tS6";
             this.tS6.Size = new System.Drawing.Size(75, 23);
             this.tS6.TabIndex = 39;
@@ -436,7 +477,8 @@ namespace _7_Segment_Buttons
             // 
             // bLS5
             // 
-            this.bLS5.Location = new System.Drawing.Point(655, 126);
+            this.bLS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLS5.Location = new System.Drawing.Point(655, 166);
             this.bLS5.Name = "bLS5";
             this.bLS5.Size = new System.Drawing.Size(23, 75);
             this.bLS5.TabIndex = 38;
@@ -445,7 +487,8 @@ namespace _7_Segment_Buttons
             // 
             // bS5
             // 
-            this.bS5.Location = new System.Drawing.Point(675, 199);
+            this.bS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bS5.Location = new System.Drawing.Point(675, 239);
             this.bS5.Name = "bS5";
             this.bS5.Size = new System.Drawing.Size(75, 23);
             this.bS5.TabIndex = 37;
@@ -454,7 +497,8 @@ namespace _7_Segment_Buttons
             // 
             // bRS5
             // 
-            this.bRS5.Location = new System.Drawing.Point(748, 126);
+            this.bRS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRS5.Location = new System.Drawing.Point(748, 166);
             this.bRS5.Name = "bRS5";
             this.bRS5.Size = new System.Drawing.Size(23, 75);
             this.bRS5.TabIndex = 36;
@@ -463,7 +507,8 @@ namespace _7_Segment_Buttons
             // 
             // mS5
             // 
-            this.mS5.Location = new System.Drawing.Point(675, 104);
+            this.mS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mS5.Location = new System.Drawing.Point(675, 144);
             this.mS5.Name = "mS5";
             this.mS5.Size = new System.Drawing.Size(75, 23);
             this.mS5.TabIndex = 35;
@@ -472,7 +517,8 @@ namespace _7_Segment_Buttons
             // 
             // tLS5
             // 
-            this.tLS5.Location = new System.Drawing.Point(655, 32);
+            this.tLS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tLS5.Location = new System.Drawing.Point(655, 72);
             this.tLS5.Name = "tLS5";
             this.tLS5.Size = new System.Drawing.Size(23, 75);
             this.tLS5.TabIndex = 34;
@@ -481,7 +527,8 @@ namespace _7_Segment_Buttons
             // 
             // tRS5
             // 
-            this.tRS5.Location = new System.Drawing.Point(748, 32);
+            this.tRS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tRS5.Location = new System.Drawing.Point(748, 72);
             this.tRS5.Name = "tRS5";
             this.tRS5.Size = new System.Drawing.Size(23, 75);
             this.tRS5.TabIndex = 33;
@@ -490,7 +537,8 @@ namespace _7_Segment_Buttons
             // 
             // tS5
             // 
-            this.tS5.Location = new System.Drawing.Point(675, 12);
+            this.tS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tS5.Location = new System.Drawing.Point(675, 52);
             this.tS5.Name = "tS5";
             this.tS5.Size = new System.Drawing.Size(75, 23);
             this.tS5.TabIndex = 32;
@@ -502,12 +550,42 @@ namespace _7_Segment_Buttons
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // themeBtn
+            // 
+            this.themeBtn.Location = new System.Drawing.Point(12, 13);
+            this.themeBtn.Name = "themeBtn";
+            this.themeBtn.Size = new System.Drawing.Size(116, 23);
+            this.themeBtn.TabIndex = 46;
+            this.themeBtn.Text = "Default";
+            this.themeBtn.UseVisualStyleBackColor = true;
+            this.themeBtn.Click += new System.EventHandler(this.themeBtn_Click);
+            // 
+            // themeBox
+            // 
+            this.themeBox.FormattingEnabled = true;
+            this.themeBox.ItemHeight = 15;
+            this.themeBox.Items.AddRange(new object[] {
+            "Default",
+            "Black and White",
+            "Pink and Blue",
+            "Black and Yellow",
+            "Gray and Pink",
+            "Blue and Yellow ",
+            "Green and Orange"});
+            this.themeBox.Location = new System.Drawing.Point(12, 42);
+            this.themeBox.Name = "themeBox";
+            this.themeBox.Size = new System.Drawing.Size(116, 109);
+            this.themeBox.TabIndex = 47;
+            this.themeBox.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(913, 242);
+            this.ClientSize = new System.Drawing.Size(913, 274);
+            this.Controls.Add(this.themeBox);
+            this.Controls.Add(this.themeBtn);
             this.Controls.Add(this.bLS6);
             this.Controls.Add(this.bS6);
             this.Controls.Add(this.bRS6);
@@ -554,8 +632,6 @@ namespace _7_Segment_Buttons
             this.Controls.Add(this.tLS1);
             this.Controls.Add(this.tRS1);
             this.Controls.Add(this.tS1);
-            this.MaximumSize = new System.Drawing.Size(929, 281);
-            this.MinimumSize = new System.Drawing.Size(929, 281);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -612,6 +688,8 @@ namespace _7_Segment_Buttons
         private System.Windows.Forms.Button tRS5;
         private System.Windows.Forms.Button tS5;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button themeBtn;
+        private System.Windows.Forms.ListBox themeBox;
     }
 }
 
