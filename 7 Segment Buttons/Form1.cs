@@ -14,6 +14,56 @@ namespace _7_Segment_Buttons
     {
         public DateTime time;
         public string hour, min, sec, hourfd, hoursd, minfd, minsd, secfd, secsd;
+        public Color timeColor = Color.Red, backColor = Color.Black;
+
+        private void themeBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Button[] buttonDot = new Button[4] {jD1, jD2, jD3, jD4};
+            themeBtn.Text = themeBox.SelectedItem.ToString();
+            switch (themeBox.SelectedIndex)
+            {
+                case 0:
+                    timeColor = Color.Red;
+                    backColor = Color.Black;
+                    this.BackColor = backColor;
+                    break;
+                case 1:
+                    timeColor = Color.Black;
+                    backColor = Color.White;
+                    this.BackColor = backColor;
+                    break;
+                case 2:
+                    timeColor = Color.Pink;
+                    backColor = Color.Blue;
+                    this.BackColor = backColor;
+                    break;
+                case 3:
+                    timeColor = Color.Yellow;
+                    backColor = Color.Black;
+                    this.BackColor = backColor;
+                    break;
+                case 4:
+                    timeColor = Color.Gray;
+                    backColor = Color.Pink;
+                    this.BackColor = backColor;
+                    break;
+                case 5:
+                    timeColor = Color.Blue;
+                    backColor = Color.Yellow;
+                    this.BackColor = backColor;
+                    break;
+                case 6:
+                    timeColor = Color.Green;
+                    backColor = Color.Orange;
+                    this.BackColor = backColor;
+                    break;
+            }
+            foreach (Button but in buttonDot)
+            {
+                but.BackColor = timeColor;
+            }
+            themeBox.Visible = false;
+        }
 
         private void themeBtn_Click(object sender, EventArgs e)
         {
@@ -54,94 +104,94 @@ namespace _7_Segment_Buttons
             switch(number)
             {
                 case "0":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = Color.Red;
-                    buttons[3].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = Color.Red;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = timeColor;
+                    buttons[3].BackColor = backColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = timeColor;
+                    buttons[6].BackColor = timeColor;
                     break;
                 case "1":
-                    buttons[0].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[3].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[6].BackColor = SystemColors.ActiveCaptionText;
+                    buttons[0].BackColor = backColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = backColor;
+                    buttons[3].BackColor = backColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = backColor;
+                    buttons[6].BackColor = backColor;
                     break;
                 case "2":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[5].BackColor = Color.Red;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = backColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = backColor;
+                    buttons[5].BackColor = timeColor;
+                    buttons[6].BackColor = timeColor;
                     break;
                 case "3":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = backColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = backColor;
+                    buttons[6].BackColor = timeColor;
                     break;
                 case "4":
-                    buttons[0].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = Color.Red;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[6].BackColor = SystemColors.ActiveCaptionText;
+                    buttons[0].BackColor = backColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = timeColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = backColor;
+                    buttons[6].BackColor = backColor;
                     break;
                 case "5":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[2].BackColor = Color.Red;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = backColor;
+                    buttons[2].BackColor = timeColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = backColor;
+                    buttons[6].BackColor = timeColor;
                     break;
                 case "6":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[2].BackColor = Color.Red;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = Color.Red;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = backColor;
+                    buttons[2].BackColor = timeColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = timeColor;
+                    buttons[6].BackColor = timeColor;
                     break;
                 case "7":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[3].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[6].BackColor = SystemColors.ActiveCaptionText;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = backColor;
+                    buttons[3].BackColor = backColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = backColor;
+                    buttons[6].BackColor = backColor;
                     break;
                 case "8":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = Color.Red;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = Color.Red;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = timeColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = timeColor;
+                    buttons[6].BackColor = timeColor;
                     break;
                 case "9":
-                    buttons[0].BackColor = Color.Red;
-                    buttons[1].BackColor = Color.Red;
-                    buttons[2].BackColor = Color.Red;
-                    buttons[3].BackColor = Color.Red;
-                    buttons[4].BackColor = Color.Red;
-                    buttons[5].BackColor = SystemColors.ActiveCaptionText;
-                    buttons[6].BackColor = Color.Red;
+                    buttons[0].BackColor = timeColor;
+                    buttons[1].BackColor = timeColor;
+                    buttons[2].BackColor = timeColor;
+                    buttons[3].BackColor = timeColor;
+                    buttons[4].BackColor = timeColor;
+                    buttons[5].BackColor = backColor;
+                    buttons[6].BackColor = timeColor;
                     break;
             }
         }
